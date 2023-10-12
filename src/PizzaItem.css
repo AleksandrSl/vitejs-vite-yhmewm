@@ -1,0 +1,19 @@
+.pizzaGridParent {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 18rem);
+}
+
+.pizzaItemParent {
+  display: flex;
+}
+
+.pizzaItemSquare {
+  padding: 1rem;
+  width: 10rem;
+  height: 10rem;
+}
+
+.pizzaItemImage {
+  width: 100%;
+  height: 100%;
+}
